@@ -1,5 +1,0 @@
-void main() {
-  runApp(MaterialApp(
-    
-  ));
-}
