@@ -14,11 +14,21 @@ class _tela01State extends State<tela01> {
       appBar: AppBar(
         title: Text("Controle de Plantões"),
       ),
-      body: Column(
-        children: [
-
-        ],
-      ),
+      body: Container(
+        padding: EdgeInsets.all(22),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Padding(
+              padding: EdgeInsets.only(bottom: 22),
+              child: Text(
+                "CALENDARIO AQUI!!!",
+                textAlign: TextAlign.center,
+                ),
+            ),
+          ],
+        ),
+      )
     );
   }
 }
