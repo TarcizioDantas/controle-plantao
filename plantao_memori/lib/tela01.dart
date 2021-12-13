@@ -15,8 +15,9 @@ class _tela01State extends State<tela01> {
         title: Text("Controle de Plantões"),
       ),
       body: Container(
-        padding: EdgeInsets.all(22),
-        child: Column(
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(22),
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Padding(
@@ -25,8 +26,9 @@ class _tela01State extends State<tela01> {
                 "CALENDARIO AQUI!!!",
                 textAlign: TextAlign.center,
                 ),
-            ),
-          ],
+              ),
+            ],
+          ),
         ),
       )
     );
